@@ -1,13 +1,23 @@
 # Notes
 ### Install
-Check playwright version 
+#### Check playwright version 
 ``` bash
 npx @playwright/test --version
 ```
-Install playwright
+#### Initialize new node project
+``` bash
+npm init -y
+```
+#### Install playwright test framework
 ``` bash
 npm install @playwright/test
 ```
+
+#### Install browser binaries
+``` bash
+npx install playwright
+```
+
 ### Files
 `playwright.config.ts` - Configs such as browser settings and environments
 
@@ -21,9 +31,9 @@ For example instead of typing `npx playwright test tests/ ` we can add a script 
 `npm run test:e2e`
 
 
-### Run
+### Execute the test
 ``` bash
-npx playwright run
+npx playwright test
 ```
 
 ### Notes
